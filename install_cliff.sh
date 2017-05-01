@@ -35,9 +35,7 @@ sudo apt-get install -y maven
 # tell it again that we do indeed want Java 7                                                           
 set JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64                                                          
                                                                                                         
-sudo update-alternatives --config java  <<-EOF                                                          
-2                                                                                                       
-EOF                                                                                                     
+echo 2 | sudo update-alternatives --config java                                                         
                                                                                                         
 echo "Download Tomcat"                                                                                  
 cd ~                                                                                                    
