@@ -12,11 +12,11 @@
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 
 start() {
- sh /home/username/apache-tomcat-7.0.59/bin/startup.sh
+ sh /opt/tomcat/bin/startup.sh
 }
 
 stop() {
- sh /home/username/apache-tomcat-7.0.59/bin/shutdown.sh
+ sh /opt/tomcat/bin/shutdown.sh
 }
 
 case $1 in
